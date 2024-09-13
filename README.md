@@ -13,7 +13,7 @@ sua máquina.
 
 Obs: O composer irá criar este diretório: ****/var/www**/my-app** e instalará o laravel dentro dele
 
-5. Ainda em **/var/www** digite o comando **cp -r /my-app/* .** , isso irá copiar todo o projeto para **/var/www**
+5. Ainda em **/var/www** digite o comando __cp -r /my-app/* .__ , isso irá copiar todo o projeto para **/var/www**
 
 Obs: Verifique se as pastas existem dentro de **/storage/framework**: **cache**, **views** e **sessions**, se não existem crie essas pastas. Exemplo: 
 
