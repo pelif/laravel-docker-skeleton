@@ -1,2 +1,4 @@
 /vendor
 .env
+/nginx/error.log
+/nginx/access.log
