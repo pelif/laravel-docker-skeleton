@@ -20,8 +20,17 @@ RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" \
 
 EXPOSE 9000
 
-RUN chown -R www-data:www-data \ 
-    /var/www
+
+RUN mkdir /var/www/storage
+RUN mkdir storage/framework
+RUN mkdir storage/framework/cache
+RUN mkdir storage/framework/sessions
+RUN mkdir storage/framework/views
+
+RUN chown -R www-data:www-data /var/www
+RUN chmod -R 777 /var/www/storage
+
+
 
 
 
